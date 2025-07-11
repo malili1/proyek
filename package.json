@@ -1,5 +1,5 @@
 {
-  "name": "saasbold-lite",
+  "name": "podcorex",
   "version": "1.2.0",
   "private": true,
   "engines": {
@@ -19,7 +19,11 @@
     "test-build": "npm run check-style && npm run build"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.33.0",
+    "@clerk/nextjs": "^6.24.0",
+    "lucide-react": "^0.525.0",
     "next": "^15.2.4",
+    "next-auth": "^4.24.11",
     "next-themes": "^0.2.1",
     "nextjs-toploader": "^1.6.6",
     "react": "19.0.0",

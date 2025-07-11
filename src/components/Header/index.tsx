@@ -1,6 +1,4 @@
 "use client";
-import logoLight from "@/../public/images/logo/logo-light.svg";
-import logo from "@/../public/images/logo/logo.svg";
 import { Menu } from "@/types/menu";
 import Image from "next/image";
 import Link from "next/link";
@@ -57,12 +55,12 @@ const Header = () => {
         <div className="relative mx-auto max-w-[1170px] items-center justify-between px-4 sm:px-8 xl:flex xl:px-0">
           <div className="flex w-full items-center justify-between xl:w-4/12">
             <Link href="/">
-              <Image
-                src={logoLight}
-                alt="Logo"
-                className="hidden w-full dark:block"
-              />
-              <Image src={logo} alt="Logo" className="w-full dark:hidden" />
+              <div className="flex items-center">
+                <div className="bg-primary rounded-lg px-3 py-1 mr-2">
+                  <span className="text-white font-bold text-sm">PC</span>
+                </div>
+                <span className="text-xl font-bold text-black dark:text-white">PodCoreX</span>
+              </div>
             </Link>
 
             {/* <!-- Hamburger Toggle BTN --> */}
@@ -151,16 +149,16 @@ const Header = () => {
               <ThemeSwitcher />
 
               <Link
-                href="#"
+                href="/sign-in"
                 className="px-5 py-2 font-satoshi font-medium text-black dark:text-white"
               >
                 Sign In
               </Link>
               <Link
-                href="#"
+                href="/sign-up"
                 className="rounded-full bg-primary px-5 py-2 font-satoshi font-medium text-white hover:bg-primary-dark"
               >
-                Sign Up
+                Get Started
               </Link>
             </div>
             {/* <!--=== Nav Right End ===--> */}

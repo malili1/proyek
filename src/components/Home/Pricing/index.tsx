@@ -14,19 +14,21 @@ const Pricing = () => {
     >
       {/* <!-- section title --> */}
       <SectionHeader
-        title={"Simple Affordable Pricing"}
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod malesuada lacus, non consequat quam."
+        title={"Simple, Transparent Pricing"}
+        description="Get started with PodCoreX today and experience the power of container management"
       />
 
       <div className="mx-auto w-full max-w-[1170px] px-4 sm:px-8 xl:px-0">
-        <div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 lg:grid-cols-3">
-          {pricingData &&
-            pricingData.map((price, key) => (
-              <PriceItem
-                plan={price}
-                key={key}
-              />
-            ))}
+        <div className="flex justify-center">
+          <div className="w-full max-w-2xl">
+            {pricingData &&
+              pricingData.map((price, key) => (
+                <PriceItem
+                  plan={price}
+                  key={key}
+                />
+              ))}
+          </div>
         </div>
       </div>
     </section>

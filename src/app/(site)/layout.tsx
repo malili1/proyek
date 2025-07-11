@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { Providers } from "./providers";
 import NextTopLoader from "nextjs-toploader";
 import Loader from "@/components/Common/PreLoader";
+import WhatsAppFloatingButton from "@/components/Common/WhatsAppFloatingButton";
 
 export default function RootLayout({
   children,
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <WhatsAppFloatingButton />
       </Providers>
     </>
   );

@@ -11,8 +11,8 @@ const Features = () => {
 		>
 			{/* <!-- section title --> */}
 			<SectionHeader
-				title={"Launch SaaS Startup in Days"}
-				description='Everything you need to build, launch, and scale your SaaS startup.'
+				title={"Everything you need in one platform"}
+				description='PodCoreX offers comprehensive solutions for container and application management'
 			/>
 
 			<div className='relative z-1 mx-auto w-full max-w-[1170px] px-4 sm:px-8 xl:px-0'>
