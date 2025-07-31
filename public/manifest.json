@@ -1,0 +1,25 @@
+{
+  "name": "PodCoreX - Deploy Applications in 15 Seconds",
+  "short_name": "PodCoreX",
+  "description": "Indonesian SaaS platform for quick application deployment. n8n, Activepieces, WAHA Plus Cloud templates and more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["productivity", "business", "utilities"],
+  "lang": "id",
+  "dir": "ltr"
+} 
